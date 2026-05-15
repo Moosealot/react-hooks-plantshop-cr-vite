@@ -10,7 +10,7 @@ function PlantCard({ plant, onSoldOut }) {
 
       <h4>{name}</h4>
 
-      <p>Price: ${price}</p>
+      <p>Price: {price}</p>
 
       {soldOut && <p>Sold Out</p>}
 
