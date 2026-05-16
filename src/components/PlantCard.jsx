@@ -12,10 +12,10 @@ function PlantCard({ plant, onSoldOut }) {
 
       <p>Price: {price}</p>
 
-      {soldOut && <p>Out of Stock</p>}
+      {/* {soldOut && <p>Out of Stock</p>} */}
 
       <button onClick={() => onSoldOut(id)}>
-        {soldOut ? "In Stock" : "Sold Out"}
+        {soldOut ? "Sold Out" : "In Stock"}
       </button>
     </li>
   );

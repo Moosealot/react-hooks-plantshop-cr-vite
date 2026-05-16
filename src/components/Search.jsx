@@ -3,7 +3,7 @@ function Search({ search, onSearchChange }) {
     <div>
       <input
         type="text"
-        placeholder="Search plants..."
+        placeholder="Type a name to search..."
         value={search}
         onChange={(e) => onSearchChange(e.target.value)}
       />
